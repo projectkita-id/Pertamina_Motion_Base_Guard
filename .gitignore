@@ -1,0 +1,26 @@
+# Model AI (ukuran besar, jangan ikut di-commit)
+*.onnx
+*.engine
+
+# Video sample / uji coba
+*.mp4
+*.avi
+*.mov
+
+# Hasil capture runtime (dibuat otomatis saat aplikasi jalan)
+captured_plates/
+captured_tags/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
